@@ -22,10 +22,10 @@ Person::~Person() {
 void Person::OutputIdentity() {
 }
 
-void Person::OutputAge() {
-	cout << "I am " << age << " years old" << endl;
-}
-
 void Person::SetAge(int theage) {
 	age = theage;
+}
+
+void Person::OutputAge() {
+	cout << age << endl;
 }

@@ -13,7 +13,13 @@ int main()
 {
 	Student *joe = new Student("John", "Doe", 24, "White");
 
+	joe->OutputIdentity();
 	joe->OutputAge();
+
+	Teacher *jane = new Teacher("Jane", "Doe", 32, "White");
+
+	jane->OutputIdentity();
+	jane->OutputAge();
 
     return 0;
 }

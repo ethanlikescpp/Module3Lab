@@ -17,3 +17,12 @@ Student::Student(string fName, string lName, int tage, string rrace) {
 	SetAge(tage);
 	race = rrace;
 }
+
+void Student::OutputIdentity() {
+	cout << "I am a student" << endl;
+}
+
+void Student::OutputAge() {
+	cout << "I am a student and ";
+	Person::OutputAge();
+}
