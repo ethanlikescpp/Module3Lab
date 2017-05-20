@@ -3,13 +3,17 @@
 
 #include "stdafx.h"
 #include <iostream>
+#include "Student.h"
+#include "Teacher.h"
 
 using namespace std;
 
 
-
 int main()
 {
+	Student *joe = new Student("John", "Doe", 24, "White");
+
+	joe->OutputAge();
 
     return 0;
 }
